@@ -1,5 +1,8 @@
 [$HOME/.oh-my-zsh]
 checkout = git clone --depth=1 'https://github.com/ohmyzsh/ohmyzsh.git' .oh-my-zsh
 
+[$HOME/.oh-my-zsh/custom/themes/powerlevel10k]
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 [$HOME/.config/vcsh/repo.d/zsh.git]
-checkout = vcsh clone -b main 'https://github.com/longwdl/vcsh_zsh.git' zsh
+checkout = vcsh clone -b main 'git@github.com:GodZenithPrime/vcsh_zsh.git' zsh
